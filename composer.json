@@ -1,0 +1,22 @@
+{
+    "name": "liyifei/yii2-adminlte",
+    "description": "simple way to use adminlte",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","adminlte"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liyifei",
+            "email": "119422342@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "liyifei/yii2-base": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "liyifei\\adminlte\\": ""
+        }
+    }
+}
